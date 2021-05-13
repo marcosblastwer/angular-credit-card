@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing:border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+body, html {
+  margin:0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+::placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ddd;
+}
+
+::-ms-input-placeholder {
+  color: #ddd;
+}
